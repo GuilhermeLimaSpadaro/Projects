@@ -71,17 +71,6 @@ public class Menuini extends Escola {
 
         System.out.println("Media Final: " + Graduacao.calcularMedia());
         System.out.println("Media Final: " + Pos.calcularMedia());
-        
-        
-        String sim = new String();
-        String nao = new String();
-        if (sim != nao){
-        System.out.println("Escolha sim para acessar a matricula: ");
-        sc.nextLine();
-        }
-        else{
-            System.err.println("Saindo");
-        }
         sc.close();
   }
 }
